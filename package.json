@@ -1,0 +1,27 @@
+{
+  "name": "s34staticdeploy",
+  "version": "0.2.0",
+  "description": "Storage for staticdeploy as s3 source.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nfodor/s34staticdeploy.git"
+  },
+  "keywords": [
+    "staticdeploy"
+  ],
+  "author": "Nicolas Fodor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nfodor/s34staticdeploy/issues"
+  },
+  "homepage": "https://github.com/nfodor/s34staticdeploy#readme",
+  "dependencies": {
+    "fs-extra": "^11.1.1",
+    "rxjs": "^7.8.1",
+    "s3rver": "^3.7.1"
+  }
+}
