@@ -10,7 +10,7 @@ const instance = new S3rver({
   address: process.env.SERVICE_IP_ADDRESS ? process.env.SERVICE_IP_ADDRESS :'0.0.0.0',
   silent: false,
   serviceEndpoint: process.env.SERVICE_END_POINT? process.env.SERVICE_END_POINT : "http://localhost:4569",
-  directory: process.env.DATA_DIR? process.env.DATA_DIR : '/Users/nicolasfodor/Documents/dev21-host/setip.io/s3test/s3rver_test_directory',
+  directory: process.env.DATA_DIR? process.env.DATA_DIR : `${__dirname}/s3rver_test_directory`,
   configureBuckets: [
     {
       name: process.env.BUCKET_NAME ? process.env.BUCKET_NAME : 'host.docker.internal',
